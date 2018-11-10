@@ -1,0 +1,197 @@
+html,body{
+    position: relative;
+    height: 100%;
+	overflow:hidden;
+	margin:0px;
+	 font-family: 'Roboto', sans-serif;
+}
+
+	/* Pace Progress View */
+	.pace-inactive {
+	  display: block;
+	}
+
+
+	.login{
+		position: relative;
+		width: 400px;
+		margin: 150px auto;
+		padding: 20px 40px 40px;
+		text-align: center;
+		background: #fff;
+		z-index:1;
+
+	}
+
+	#output{
+		position: absolute;
+		width: 300px;
+		top: -75px;
+		left: 0;
+		color: #fff;
+	}
+
+
+	.avatar{
+		width: 200px;height: 200px;
+		margin: 10px auto 30px;
+		border-radius: 100%;
+		background-image:url("../ressources/images/connectlogo.png");
+		background-size:100% 100%;
+	}
+
+	.form-box input{
+		width: 100%;
+		padding: 40px;
+		padding-left:0px;
+		padding-bottom:20px;
+		text-align: left;
+		border-top-width:0px;
+					border-left-width:0px;
+					border-right-width:0px;
+					border-bottom-color:lightgrey;
+		transition:0.2s ease-in-out;
+		font-size:x-large;
+		 font-family: 'Roboto', sans-serif;
+
+	}
+
+	.form-box input:focus{
+		outline: 0;
+		border-radius:5%;
+		border-bottom-color:orange;
+		font-size:170%;
+	}
+
+	.form-box input[type="text"]{
+		text-transform: ;
+	}
+
+	.form-box input[type="password"]{
+
+		border-top: 0;
+
+	}
+
+	.form-box button.login{
+		margin-top:15px;
+		padding: 10px 20px;
+	}
+
+	.animated {
+	  -webkit-animation-duration: 1s;
+	  animation-duration: 1s;
+	  -webkit-animation-fill-mode: both;
+	  animation-fill-mode: both;
+	}
+
+	@-webkit-keyframes fadeInUp {
+	  0% {
+		opacity: 0;
+		-webkit-transform: translateY(20px);
+		transform: translateY(20px);
+	  }
+
+	  100% {
+		opacity: 1;
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	  }
+	}
+
+	@keyframes fadeInUp {
+	  0% {
+		opacity: 0;
+		-webkit-transform: translateY(20px);
+		-ms-transform: translateY(20px);
+		transform: translateY(20px);
+	  }
+
+	  100% {
+		opacity: 1;
+		-webkit-transform: translateY(0);
+		-ms-transform: translateY(0);
+		transform: translateY(0);
+	  }
+	}
+
+	.fadeInUp {
+	  -webkit-animation-name: fadeInUp;
+	  animation-name: fadeInUp;
+	}
+
+
+
+	.container p{
+	margin-top:30px;
+	font-size:120%;
+
+	}
+
+ 		footer {
+                top: 89%;
+                width: 100%;
+                display: block;
+                position: fixed;
+                background-color: #eeeeee;
+                font-size: 1.1em;
+                color: #111;
+                height: 5%;
+                padding: 1.5%;
+				font-family: 'Roboto', sans-serif;
+            }
+
+            footer p {
+                float: left;
+                width: 15%;
+                height: 10%;
+                margin-left: 5%;
+                padding: 10px;
+				color:#111;
+            }
+
+            footer ul {
+                margin-left: 15%;
+                width: 75%;
+                height:5%;
+				color:#111;
+                list-style: none;
+
+            }
+
+
+              footer ul li {
+                  padding: 10px;
+                  color:#111;
+                  float: right;
+                 list-style: none;
+                }
+
+            footer ul a {
+                color:#111;
+                text-decoration: none;
+            }
+
+			.1{
+			display: inline-block
+			}
+
+			#submit-btn {
+			height:35px;
+			width:34px;
+			background-color:white;
+			background-image:url("../ressources/images/login-btn.png");
+			background-size:100% 100%;
+			border:0px;
+			z-index:1;
+            position: relative;
+            display: inline-block;
+            top: -50px;
+			left: 50%;
+			transition:1s;
+			}
+
+			button:focus{
+			outline:0;
+			margin-left:340px;
+			}

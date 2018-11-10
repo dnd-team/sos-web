@@ -1,0 +1,76 @@
+
+/* Basic Layout */
+body {
+font-family: roboto, sans-serif;
+background: -webkit-linear-gradient(#fff, #D7DDE8); /* For Safari 5.1 to 6.0 */
+background: -o-linear-gradient(#fff, #D7DDE8); /* For Opera 11.1 to 12.0 */
+background: -moz-linear-gradient(#fff, #D7DDE8); /* For Firefox 3.6 to 15 */
+background: linear-gradient(#fff, #D7DDE8); /* Standard syntax */
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+.navigation {background-color: rgb(255, 150, 34); position: fixed; height: 100px; top: 0px; left: 0px;width: 100%;}
+.contentview {position: fixed; top: 100px; left: 0px; height: 100%; width: 100%; overflow: scroll;}
+
+.pace-inactive {
+display: none;
+}
+
+/* Navigation */
+.navbar {border: none; border-radius: 0px; margin: 0px;}
+.navbar-inverse .navbar-nav > li {transition:0.5s;}
+.navbar-inverse .navbar-nav > li:hover {background-color:#080808;}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover {background-color: #FF9622;}
+
+.navigation>ul {position: relative; top: 0px; height: 50px; width: 100%; left: 0px; margin: 0px;}
+.navigation>ul>li {position: relative; top: 0px; float: right; margin-right: 20px; height: 50px; line-height: 50px;}
+.custom-btn-save, .custom-btn-print {width: 100px;}
+
+/* VP Interface */
+.vptable {position: relative; width: 1300px; margin: 0 auto; top: 60px;}
+.vpheadline>td {font-weight: 700; text-align: center; height: 50px; background-color: rgba(169, 68, 66, 1); color: white; letter-spacing: 2px; line-height: 50px; font-size: 30px;}
+.week {margin: 0px;}
+.vpheader {height: 10px; color: black; font-weight: 900; background-color: #DBDBDB;}
+.vpheader>td {border: 3px black;}
+.table > tbody > tr > .vpcell {padding: 0px; margin: 0px; width: 175px;}
+.vprow {height: auto; text-align: center; border-collapse: collapse;}
+
+.largerow {height: auto;}
+.smallrow {height: 20px;}
+
+.vprow > td > ul {list-style: none; padding: 0px; margin: 0px;}
+.vpcontent {background-color: transparent; transition: 0.25s; height: auto; width: 100%;}
+.vpcontent:hover {background-color: #2ecc71;}
+
+.vpdata {height: 40px; border-bottom: 1px #ddd solid; padding: 8px; width: 100%; position: relative; overflow: hidden; padding-bottom: 5px;}
+.vpdata .description {position: absolute; top: 0px; left: 0px; line-height: 40px; width: 125px; font-weight: 300; font-size: 0.6em;}
+.vpdata .remove {position: absolute; top: 5px; right: 5px; cursor: pointer; opacity: 0;}
+.vpdata .remove:hover {opacity: 1;}
+/*.vpdata .remove:hover {background-color: red;}*/ /* UX: Was meinst du? */
+.input-break-edit {cursor: pointer; opacity: 0;width: 50%; height: 100%;} .input-break-edit:hover {opacity: 1;}
+
+.vpdata_new {
+transition:0.3s;
+opacity: 0;
+color: white;
+font-size:15px;
+font-weight: 300;
+text-align: center;
+height: 30px;
+line-height: 30px;
+cursor: pointer;
+}
+.vpdata_new:hover {opacity: 1;}
+.vptime {width: 30px;}
+.input-break>span
+.input-break>p {margin: 0px;}
+
+.input-group {padding-bottom: 7px;}
+#input_description {height: 50px; resize: vertical;}
+.custom-popup-addon {width: 100px; text-align: right;}
+.custom-btn-cancel {float: left; opacity: 0.5; border: none;}
+.custom-btn-submit {float: right; background-color: #2ecc71; color: white; margin-bottom: 7px;}
